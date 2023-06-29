@@ -1,0 +1,9 @@
+<h1>Pokedex</h1>
+
+<div *ngFor="let poke of listPokemon">
+    <h4>{{poke?.name}}</h4>
+<img src="{{poke?.sprites?.front_default}}" alt="">
+<img src="{{poke?.sprites?.back_default}}" alt="">
+<img src="{{poke?.sprites?.front_shiny}}" alt="">
+<img src="{{poke?.sprites?.back_shiny}}" alt="">
+</div>
